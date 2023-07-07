@@ -10,10 +10,33 @@ body {
      
 }
 .fondo23 { background-image: url(../assets/img/fondos23.jpg);
-    height: 75vh;
+    height: 70vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
+}
+
+.fondom54 { background-image: url(../assets/img/m54.jpg);
+    height: 70vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.fondos23plus { background-image: url(../assets/img/fondos23plus.jpg); 
+    height: 70vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+
+.fondos23ultra { background-image: url(../assets/img/elbichodelaño.jpg);
+    height: 70vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
 
 }
 
