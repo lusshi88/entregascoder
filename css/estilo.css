@@ -9,4 +9,11 @@ body {
      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
      
 }
+.fondo23 { background-image: url(../assets/img/fondos23.jpg);
+    height: 75vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
 
