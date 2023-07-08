@@ -6,9 +6,18 @@
 
 body {
      height: 100vh;
-     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     font-family:sans-serif;
      
 }
+
+.fondoindex { background-image: url(../assets/img/fondoindex.jpg);
+    height: 70vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
 .fondo23 { background-image: url(../assets/img/fondos23.jpg);
     height: 90vh;
     background-position: center;
