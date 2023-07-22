@@ -1,0 +1,12 @@
+@import "variables";
+
+footer { background-color: $color-footer;
+    div {
+        nav {
+           a { color: $color-iconos-footer;
+
+           }
+        }
+    }
+
+}
