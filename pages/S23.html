@@ -5,28 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/estilo.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>S23</title>
+    <title>SmarphonSamg - S23</title>
 </head>
 <body>
 <!-- Encabezado con navbar (menu hamburgesa)  -->
 <header class="container-fluid " >
-    <nav class="bg-primary-subtle  row  navbar navbar-expand-lg   ">
+    <nav class="row  navbar navbar-expand-lg">
           <div class="container-fluid  ">
-            <a class="navbar-brand " href="../Index.html"><img src="../assets/img/SmarphonSamg-removebg-preview.png" style=" height: 150px; width:150px;" alt=""></a>
+            <a class="navbar-brand " href="../index.html"><img src="../assets/img/SmarphonSamg-removebg-preview.png" style=" height: 150px; width:150px;" alt=""></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
+            </button>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                  <a class="nav-link active text-black" aria-current="page" href="#">Noticias</a>
+                  <a class="noticiasxd  nav-link active " aria-current="page" href="../pages/noticias.html">Noticias</a>
                 </li>
   
                 <!-- Esto es la seleccion de la Serie M -->
                 <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle text-black" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Serie M
                   </a>
                   <ul class="dropdown-menu">
@@ -36,7 +38,7 @@
   
                 <!-- Esto es la seleccion de la Serie A -->
                 <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle text-black" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Serie A
                   </a>
                   <ul class="dropdown-menu">
@@ -47,7 +49,7 @@
   
                 <!-- Esto es la seleccion de la Serie S -->
                 <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle text-black" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Serie S
                   </a>
   
@@ -62,7 +64,7 @@
               <!-- Esto es el buscador -->
               <form class="d-flex" role="search">
                 <input class="form-control me-2"  type="search" placeholder="Busqueda" aria-label="Search">
-                <button class="btn btn-outline-success text-black" type="submit">Buscar</button>
+                <button class="btn" type="submit">Buscar</button>
               </form>
             </div>
           </div>
@@ -71,14 +73,14 @@
 
 <main class="container " >
   <div class="row  " >
-    <div class="fondo23 d-flex align-items-center text-black"> 
+    <div class="fondo23 d-flex align-items-center"> 
       
       <h1 class="bg-white" >Samsung Galaxy S23, análisis: el buen perfume que se vende en frasco pequeño</h1> 
     
     </div>
     <div class="col-12" ><br><br></div>
     
-    <div class="col-12  fs-3 > ">
+    <div class="col-12  fs-3" > 
       Ser el hijo menor no es fácil: toda la atención se la llevan los mayores y puedes sentir que no tienes hueco. Sin embargo, ese no es el caso con las últimas generaciones de Samsung Galaxy. Mientras otros fabricantes siguen con su política de diferenciar mucho sus tres miembros con un Lite, un estándar y un Pro, Samsung lanza dos móviles iguales que se diferencian por las dimensiones y un Galaxy S23 Ultra como buque insignia.
 
 Mi compañero Ricardo hizo hace unos días la review del Galaxy S23+ y lo colocó como uno de los mejores Android que puedes comprar ahora mismo. Ahora, vamos con el análisis de un Galaxy S23 que, como decía, es el pequeño de la familia, pero solo en tamaño.
@@ -88,7 +90,7 @@ Mi compañero Ricardo hizo hace unos días la review del Galaxy S23+ y lo coloc�
   
     <!-- Aca estan las características puntuales del "S23 :3" -->
     
-    <div class="col-12 fs-2 d-flex justify-content-center ">Ficha tecnica del Samsung galaxy S23</div>
+    <div class="col-12 fs-2 d-flex justify-content-center " data-aos="flip-up">Ficha tecnica del Samsung galaxy S23</div>
     <div class="col-12" ><br> <br></div>
     <div class="col-6 border-bottom border-primary border-2 d-flex justify-content-center " >PANTALLA </div>
     <div class="col-6 border-bottom border-primary border-2 d-flex justify-content-star  " >
@@ -181,46 +183,48 @@ Mi compañero Ricardo hizo hace unos días la review del Galaxy S23+ y lo coloc�
 
 
     <div class="row  " >
-      <div class="col-12 d-flex justify-content-center fs-2   " > Diseño: para ser premium no hace falta un tamaño descomunal</div>
+      <div class="col-12 d-flex justify-content-center fs-2   "data-aos="flip-up" > Diseño: para ser premium no hace falta un tamaño descomunal</div>
 
       <div><br></div>
   
-      <div class="col-12 d-flex justify-content-center" > <img src="../assets/img/s23.jpg" height="400px" alt=""></div>
+      <div class="col-12 d-flex justify-content-center" > <img src="../assets/img/s23.webp" class="img-fluid" alt=""></div>
       <div class="col-12" ><br> <br></div>
   
     <div class="col-12 fs-4 " >Me encantan los móviles grandes para ver contenido cuando estoy fuera de casa, pero para el día a día soy de móviles más contenidos. Un S23 Ultra me parece enorme y sí, aprecio la belleza del diseño y sus materiales, pero es demasiado grande para el uso diario.</div>
     
     <div class="col-12" > <br> <br> </div>
-    <div class="col-12 d-flex justify-content-center fs-2 ">Rendimiento: el Snapdragon 8 Gen 2 es fantástico incluso en espacios reducidos</div>
-    <div class="col-12 d-flex justify-content-center" ><img src="../assets/img/snapdragons23-920x690.jpg" height="400px"  alt=""></div>
+    <div class="col-12 d-flex justify-content-center fs-2 " data-aos="flip-up">Rendimiento: el Snapdragon 8 Gen 2 es fantástico incluso en espacios reducidos</div>
+    <div class="col-12 d-flex justify-content-center" ><img src="../assets/img/snapdragons23-920x690.webp" class="img-fluid"  alt=""></div>
     <div class="col-12" ><br> <br></div>
     
     <div class="col-12 fs-4 " >El Snapdragon 8 Gen 2 es un procesador que nos está encantando y que, como hemos visto en el OnePlus 11 o en el Xiaomi 13, brilla cuando tiene un buen sistema de disipación. Lejos quedan, o eso parece, los problemas de estrangulamiento térmico de las últimas generaciones y eso se traduce en que vas a poder jugar sin que el SoC diga “hasta aquí”. <br> Debes saber que solo hay una versión de RAM de este terminal: 8 GB. Donde varía es en el almacenamiento con opciones de 128 GB, 256 GB (nuestra versión) y 512 GB y, a su vez, dependiendo de la cantidad elegida, tendrás una versión más rápida que otra. </div>
   
-  
-
-  
     </div>
-
 
 </main>
 
 <!-- En el footer, puse las redes sociales ._. -->
 
-<footer class="container-fluid " >
-    <div class="row bg-primary-subtle  h-100" >
-      <p class="col-12 text-black d-flex justify-content-center fs-3 " >Seguinos en nuestras redes </p>
-      <nav class="col-12 bg-primary-subtle text-black d-flex justify-content-evenly "  >
-        
-<a href="#"><i class="fa-brands fa-facebook "></i>Facebook</a>
-<a href="#"><i class="fa-brands fa-instagram"></i>Instagram</a>
-<a href="#"><i class="fa-brands fa-twitter"></i>Twitter</a>
+<footer class="container-fluid" >
+  <div class="row h-100 " >
+    <p class="col-12 d-flex justify-content-center fs-5 " >Seguinos en nuestras redes </p>
+    <nav class="col-12  d-flex justify-content-center fs-3  "  >
+      
+  
+<a href="#"><i class="fa-brands fa-facebook me-4"></i></a> 
+<a href="#"><i class="fa-brands fa-instagram me-4 "></i></a>
+<a href="#"><i class="fa-brands fa-twitter me-4"></i></a>
 </nav>  
 
 </div>
 
 
 </footer>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>   
 </body>
 </html>
