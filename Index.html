@@ -16,25 +16,30 @@
     <meta name="description" content="SmarphonSamg te da las caracteristicas de los mejores celulares Samsung">
     <meta name="keywords" content="SAMSUNG, S23, M54, A54, A34" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-<body >
+<body class="body-index" >
+    
+  
 
     <!-- Encabezado con navbar (menu hamburgesa)  -->
-<header class="container-fluid " >
+<header class="header-index  container-fluid " >
   <nav class="h-100 row navbar navbar-expand-lg   ">
         <div class="container-fluid ">
-          <a class="navbar-brand" href="./index.html"><img src="./assets/img/SmarphonSamg-removebg-preview.png" style=" height: 150px; width:150px;" alt=""></a>
+          <a class="navbar-brand" href="./index.html"><img src="./assets/icons/smarphonSamg-removebg-preview.png" style=" height: 150px; width:150px;" alt=""></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon "></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li>
+                <a class=" nav-link active text-white fs-5 "  aria-current="page" href="./pages/contacto.html"> Contacto</a>
+              </li>
               <li class="nav-item">
-                <a class=" nav-link active  "  aria-current="page" href="./pages/noticias.html"> Noticias</a>
+                <a class=" nav-link active text-white fs-5 "  aria-current="page" href="./pages/noticias.html"> Noticias</a>
               </li>
 
               <!-- Esto es la seleccion de la Serie M -->
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link dropdown-toggle text-white fs-5" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Serie M
                 </a>
                 <ul class="dropdown-menu">
@@ -45,7 +50,7 @@
 
               <!-- Esto es la seleccion de la Serie A -->
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link dropdown-toggle text-white fs-5" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Serie A
                 </a>
                 <ul class="dropdown-menu">
@@ -56,7 +61,7 @@
 
               <!-- Esto es la seleccion de la Serie S -->
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link dropdown-toggle text-white fs-5" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Serie S
                 </a>
 
@@ -71,54 +76,39 @@
             <!-- Esto es el buscador -->
             <form class="d-flex" role="search">
               <input class="form-control me-2"  type="search" placeholder="Busqueda" aria-label="Search">
-              <button class="btn" type="submit">Buscar</button>
+              <button class="btn text-white" type="submit">Buscar</button>
             </form>
           </div>
         </div>
       </nav>
 </header>
 
-<!-- Aca pondre la presentacion de la pagina, seria el main -->
-<main class="container">
-    <div class="fondoindex  d-flex justify-content-center  "> 
-        
-      <h1 class="animate__animated animate__zoomIn" >Bienvenidos a SmarphonSamg</h1> 
-    
-    </div>
 
+<main class="main-index" >
+ 
+ 
 
-
-
-  </div>
-
-<div class="col">
-  <p class="fs-4" >Bienvenidos a SmarphonSamg , una pagina diseñada para tener todas las caracteristicas de los mejores smparhones de Samsung, tambien podras encontrar noticias de los nuevos lanzamientos ,etc
-
-</p>
-
-</div>
-
-  
 </main>
 
 
-<!-- En el footer, puse las redes sociales ._. -->
+<!-- En el footer, puse las redes sociales  -->
 
-<footer class="container-fluid" >
+<footer class="footer-index container-fluid " >
   <div class="row h-100 " >
-    <p class="col-12 d-flex justify-content-center fs-5 " >Seguinos en nuestras redes </p>
-    <nav class="col-12  d-flex justify-content-center fs-3  "  >
+    <p class="col-12 d-flex justify-content-center align-items-center fs-5 text-white" >Seguinos en nuestras redes </p>
+    <nav class="col-12  d-flex justify-content-center  bg-black "  >
       
   
-<a href="#"><i class="fa-brands fa-facebook me-4"></i></a> 
-<a href="#"><i class="fa-brands fa-instagram me-4 "></i></a>
-<a href="#"><i class="fa-brands fa-twitter me-4"></i></a>
+<a href="#"><i class="facebook fa-brands fa-facebook me-4 fs-3 "></i></a> 
+<a href="#"><i class="instagram  fa-brands fa-instagram me-4 fs-3 "></i></a>
+<a href="#"><i class="twitter  fa-brands fa-twitter me-4 fs-3 "></i></a>
 </nav>  
 
 </div>
 
 
 </footer>
+
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
   AOS.init();

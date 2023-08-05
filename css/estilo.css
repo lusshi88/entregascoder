@@ -1,21 +1,53 @@
 @charset "UTF-8";
+.body-index {
+  height: 100vh;
+  background-image: url(../assets/img/fondoindex.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.header-index {
+  height: 15vh;
+}
+
+.main-index {
+  height: 70vh;
+}
+
+.footer-index {
+  height: 15vh;
+}
+
 header {
-  background-color: #2be2ae;
+  background-color: black;
 }
 
 footer {
-  background-color: #2be2ae;
-}
-footer div nav a {
-  color: black;
+  background-color: black;
 }
 
-.fondoindex {
-  background-image: url(../assets/img/fondoindex.jpg);
-  height: 70vh;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+footer div a {
+  color: white;
+}
+
+.facebook:hover {
+  color: #3b5998;
+  transform: translateY(-3px) scale(1.05);
+}
+
+.instagram:hover {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transform: translateY(-3px) scale(1.05);
+}
+
+.twitter:hover {
+  color: #00acee;
+  transform: translateY(-3px) scale(1.05);
 }
 
 .fondo23 {
@@ -93,6 +125,7 @@ footer div nav a {
 body {
   height: 100vh;
   font-family: sans-serif;
+  background-color: white;
 }
 
 main {

@@ -1,12 +1,33 @@
 @import "variables";
 
 footer { background-color: $color-footer;
-    div {
-        nav {
-           a { color: $color-iconos-footer;
+    
+}
 
-           }
+footer {
+    div {
+        a{ color: white;
+
         }
     }
+}
+
+
+
+.facebook:hover { color: #3b5998;
+    transform: translateY(-3px) scale(1.05) ;
+
+}
+
+.instagram:hover { background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transform: translateY(-3px) scale(1.05) ;
+
+}
+
+.twitter:hover { color: #00acee;
+    transform: translateY(-3px) scale(1.05) ;
 
 }
