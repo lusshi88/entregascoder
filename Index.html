@@ -12,24 +12,29 @@
 
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>SmarphonSamg </title>
     <meta name="description" content="SmarphonSamg te da las caracteristicas de los mejores celulares Samsung">
     <meta name="keywords" content="SAMSUNG, S23, M54, A54, A34" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-<body class="body-index" >
     
+<body class="body-index" >
+  
   
 
     <!-- Encabezado con navbar (menu hamburgesa)  -->
+
 <header class="header-index  container-fluid " >
   <nav class="h-100 row navbar navbar-expand-lg   ">
         <div class="container-fluid ">
-          <a class="navbar-brand" href="./index.html"><img src="./assets/icons/smarphonSamg-removebg-preview.png" style=" height: 150px; width:150px;" alt=""></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon "></span>
+          <a class="navbar-brand" href="./index.html"><img src="./assets/icons/telefono-inteligente.ico" style=" height: 80px; width:80px;" alt=""></a>
+          <button class="navbar-toggler bg-warning" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon  "></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li>
+                <a class=" nav-link active text-white fs-5 "  aria-current="page" href="./pages/contacto.html"> Quienes somos</a>
+              </li>
               <li>
                 <a class=" nav-link active text-white fs-5 "  aria-current="page" href="./pages/contacto.html"> Contacto</a>
               </li>
@@ -44,7 +49,7 @@
                 </a>
                 <ul class="dropdown-menu">
                   <li>
-                    <a  class="dropdown-item "  href=".//pages/M54.html">M54</a></li>
+                    <a  class="dropdown-item fondo-green"  href=".//pages/M54.html">M54</a></li>
                 </ul>
               </li>
 
@@ -53,30 +58,30 @@
                 <a class="nav-link dropdown-toggle text-white fs-5" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Serie A
                 </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="./pages/A54.html">A54</a></li>
-                  <li><a class="dropdown-item" href="./pages/A34.html">A34</a></li>
+                <ul class="dropdown-menu " >
+                  <li><a class="dropdown-item fondo-green" href="./pages/A54.html">A54</a></li>
+                  <li><a class="dropdown-item fondo-green" href="./pages/A34.html">A34</a></li>
                 </ul>
               </li>
 
               <!-- Esto es la seleccion de la Serie S -->
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle text-white fs-5" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link dropdown-toggle text-white fs-5 " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Serie S
                 </a>
 
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="./pages/S23Ultra.html">S23 Ultra</a></li>
-                  <li><a class="dropdown-item" href="./pages/S23Plus.html">S23 Plus</a></li>
-                  <li><a class="dropdown-item" href="./pages/S23.html">S23</a></li>
+                  <li><a class="dropdown-item fondo-green" href="./pages/S23Ultra.html">S23 Ultra</a></li>
+                  <li><a class="dropdown-item fondo-green" href="./pages/S23Plus.html">S23 Plus</a></li>
+                  <li><a class="dropdown-item fondo-green" href="./pages/S23.html">S23</a></li>
                 </ul>
               </li>
             </ul>
 
             <!-- Esto es el buscador -->
             <form class="d-flex" role="search">
-              <input class="form-control me-2"  type="search" placeholder="Busqueda" aria-label="Search">
-              <button class="btn text-white" type="submit">Buscar</button>
+              <input class=" form-control me-2"  type="search" placeholder="Busqueda" aria-label="Search">
+              <button class=" btn text-white" type="submit">Buscar</button>
             </form>
           </div>
         </div>
@@ -85,23 +90,24 @@
 
 
 <main class="main-index" >
- 
- 
+  
+  <video src="./assets/video/fondo-index.mp4" muted autoplay loop ></video>
+  
+  
+  
 
 </main>
 
 
 <!-- En el footer, puse las redes sociales  -->
 
-<footer class="footer-index container-fluid " >
+<footer class="footer-index  container-fluid "  >
   <div class="row h-100 " >
-    <p class="col-12 d-flex justify-content-center align-items-center fs-5 text-white" >Seguinos en nuestras redes </p>
-    <nav class="col-12  d-flex justify-content-center  bg-black "  >
-      
-  
-<a href="#"><i class="facebook fa-brands fa-facebook me-4 fs-3 "></i></a> 
-<a href="#"><i class="instagram  fa-brands fa-instagram me-4 fs-3 "></i></a>
-<a href="#"><i class="twitter  fa-brands fa-twitter me-4 fs-3 "></i></a>
+    <p class="col d-flex justify-content-center align-items-center fs-5 text-white mb-2">Seguinos en nuestras redes </p>
+    <nav class="col-12  d-flex justify-content-center   "  >
+<a href="#"><i class="facebook fa-brands fa-facebook me-4 fs-4 "></i></a> 
+<a href="#"><i class="instagram  fa-brands fa-instagram me-4 fs-4 "></i></a>
+<a href="#"><i class="twitter  fa-brands fa-twitter me-4 fs-4 "></i></a>
 </nav>  
 
 </div>

@@ -1,15 +1,23 @@
-@charset "UTF-8";
 .body-index {
-  height: 100vh;
-  background-image: url(../assets/img/fondoindex.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
+  min-height: 100vh;
+  position: relative;
+}
+
+video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .header-index {
-  height: 15vh;
+  height: 20vh;
+  position: relative;
+  z-index: 2;
+  background: rgba(34, 34, 34, 0.75);
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 .main-index {
@@ -17,17 +25,28 @@
 }
 
 .footer-index {
-  height: 15vh;
+  height: 10vh;
+  position: relative;
+  z-index: 2;
+  background: rgba(34, 34, 34, 0.75);
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 header {
   background-color: black;
 }
+header ul li:hover {
+  background-color: green;
+  border-radius: 2em;
+}
+
+.fondo-green:hover {
+  background-color: green;
+}
 
 footer {
   background-color: black;
 }
-
 footer div a {
   color: white;
 }
@@ -48,54 +67,6 @@ footer div a {
 .twitter:hover {
   color: #00acee;
   transform: translateY(-3px) scale(1.05);
-}
-
-.fondo23 {
-  background-image: url(../assets/img/fondos23.webp);
-  height: 90vh;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.fondom54 {
-  background-image: url(../assets/img/m54.webp);
-  height: 90vh;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.fondos23plus {
-  background-image: url(../assets/img/fondos23plus.webp);
-  height: 90vh;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.fondos23ultra {
-  background-image: url(../assets/img/elbichodelaño.webp);
-  height: 90vh;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.fondoa54 {
-  background-image: url(../assets/img/a54fondo.webp);
-  height: 90vh;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.fondoa34 {
-  background-image: url(../assets/img/a34fondo.webp);
-  height: 90vh;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .imgnoticia1 {
@@ -124,12 +95,24 @@ footer div a {
 
 body {
   height: 100vh;
-  font-family: sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   background-color: white;
 }
 
 main {
   color: black;
+}
+
+.boton-enviar {
+  background-color: green;
+}
+
+.form-comentarios textarea {
+  width: 100%;
+}
+
+.noticias-fuente {
+  font-family: georgia;
 }
 
 /*# sourceMappingURL=estilo.css.map */
