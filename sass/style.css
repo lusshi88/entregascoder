@@ -38,10 +38,18 @@ header {
 }
 header ul li:hover {
   background-color: green;
-  border-radius: 2em;
+  border-radius: 1em;
 }
 
 .fondo-green:hover {
+  background-color: green;
+}
+
+.btn-color {
+  background-color: green;
+}
+
+.menu-hamburgesa {
   background-color: green;
 }
 
@@ -106,6 +114,7 @@ main {
 
 .boton-enviar {
   background-color: green;
+  border-radius: 1rem;
 }
 
 .form-comentarios textarea {

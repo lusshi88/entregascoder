@@ -1,18 +1,10 @@
 @import "variables";
 
-// header {background-color: $color-header;
-//    a:hover {background-color: green;
-//     border-radius: 2em;
-    
-//    }
-
-// }
-
 header { background-color: $color-header;
     ul {
         li:hover {
             background-color: green;
-            border-radius: 2em;
+            border-radius: 1em;
         }
         
     }
@@ -24,8 +16,14 @@ header { background-color: $color-header;
 
 }
 
+.btn-color { background-color: green;
+
+}
+
     
-      
+.menu-hamburgesa { background-color: green;
+
+}      
 
 
 
